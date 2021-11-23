@@ -1,0 +1,166 @@
+/*-- Gral --*/
+body{
+	padding: 0px;
+	margin: 0px;
+	font-size: 15px;
+	color: white;
+}
+main{
+	margin-top: 0;
+	height:100%;
+	padding:20px;
+	background-color:hsl(233, 47%, 7%);
+	
+}
+/*-- Animation--*/
+@keyframes slidein{
+	From {
+		color: white;
+		
+	}
+	
+	
+	to {
+		color: hsl(277, 64%, 61%);
+		
+		}
+	}
+
+	@-webkit-keyframes base{
+		From {
+			transform: rotateY(0deg)
+		}
+		to {
+			transform:rotateY(360deg);
+		}
+	}
+/*-- Cartao --*/
+#card{
+	
+	padding: 0;
+	margin:80px auto;
+	width: 1440px;
+	height: 500px;
+	border-radius:15px;
+	background-color: hsl(244, 38%, 16%);
+	display: flex;
+	flex-direction: row-reverse;
+	
+
+}
+
+/*-- Imagem --*/
+#img{
+	
+	margin:0;
+	width: 576px;
+	height: 100%;
+
+
+}
+		#img img{
+			width: 100%;
+			height: 100%;
+			border-radius: 0 15px 15px 0;
+			opacity: 0.4;
+		}
+
+/* -- Conteudo --*/
+#content{
+		
+
+		width:864px;
+		height: 100%;
+		letter-spacing: 1px;
+		padding-top: 40px;
+
+		
+		
+}
+ /*-- section 1 --*/
+	#sec1{
+		
+		width: 60%;
+		margin: 20px auto;
+	}
+
+				#sec1 h1{
+					color:hsl(0, 0%, 100%);
+					font-size: 3em;
+					font-family: "Inter", sans-serif;
+
+
+
+				}
+				#sec1 p{
+					color:hsla(0, 0%, 100%, 0.75);
+					font-size:1.1em;
+					margin-top:-20px;
+					font-family:"Lexend Deca", sans-serif;
+					font-weight: 200;
+					line-height: 25px;
+				}
+				#sec1 span{
+					color: hsl(277, 64%, 61%);
+					
+				}
+
+				#sec1 #animation{
+					animation-name: slidein;
+					animation-delay: 1s;
+					animation-duration: 3s;
+
+					
+				}
+ /*-- Section 2 ---*/
+	#sec2{
+		
+		width:100%;
+		margin: 80px auto;
+		text-align: center;
+		box-sizing: border-box;
+		padding-left:100px;
+		
+		}
+			#sec2 .gdg{
+				float:left;
+				text-align:left;
+				margin:0 65px;
+				
+				line-height: 10px;
+			}
+			#sec2 .clear{
+				clear: both;
+			}
+
+			#sec2 h2{
+				color:hsl(0, 0%, 100%);
+				font-size:1.8em;
+				font-family:"Lexend Deca", sans-serif;
+
+			}
+			#sec2 p{
+				color:hsla(0, 0%, 100%, 0.75);
+				text-transform: uppercase;
+				font-size: 0.8em;
+				font-family:"Lexend Deca", sans-serif;
+			}
+
+			 #gdg1{
+				animation-name: base;
+				animation-duration: 2s;
+				animation-delay:5s;
+				
+			}
+ 				#gdg2{
+				animation-name: base;
+				animation-duration: 2s;
+				animation-delay:6s; 
+				
+			}
+				 #gdg3{
+				animation-name: base;
+				animation-duration: 2s;
+				animation-delay:7s;
+				 
+			}
